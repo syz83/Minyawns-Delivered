@@ -1,4 +1,4 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/container"
     android:layout_width="match_parent"
@@ -6,5 +6,19 @@
     tools:context="com.minyawns.minyawnsdelivered.MainActivity"
     tools:ignore="MergeRootFrame" >
 
+    <ImageView
+        android:id="@+id/minyawns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/minyawns" />
 
-</FrameLayout>
+    <Button
+        android:id="@+id/btnGetMinions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/minyawns" 
+        android:layout_marginLeft="80dp"
+        android:text="Get Minions!" />
+    
+    
+</RelativeLayout>

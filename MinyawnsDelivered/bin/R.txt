@@ -251,8 +251,8 @@ int id action_settings 0x7f050040
 int id activity_chooser_view_content 0x7f050025
 int id always 0x7f05000b
 int id beginning 0x7f050011
-int id btnGetMinions 0x7f05003f
-int id checkBox1 0x7f05003d
+int id btnGetMinions 0x7f05003e
+int id checkBox1 0x7f05003f
 int id checkbox 0x7f05002d
 int id collapseActionView 0x7f05000d
 int id container 0x7f05003c
@@ -272,7 +272,7 @@ int id image 0x7f050027
 int id listMode 0x7f050001
 int id list_item 0x7f050029
 int id middle 0x7f050012
-int id minyawns 0x7f05003e
+int id minyawns 0x7f05003d
 int id never 0x7f050009
 int id none 0x7f050010
 int id normal 0x7f050000

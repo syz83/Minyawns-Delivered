@@ -1,6 +1,5 @@
 package com.minyawns.minyawnsdelivered;
 
-import com.minyawns.minyawnsdelivered.MainActivity.PlaceholderFragment;
 
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
@@ -23,11 +22,6 @@ public class SecondActivity extends ActionBarActivity{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_second);
 		
-        if (savedInstanceState == null) {
-            getSupportFragmentManager().beginTransaction()
-                    .add(R.id.container, new PlaceholderFragment())
-                    .commit();
-        }
 	}
 	
     @Override
